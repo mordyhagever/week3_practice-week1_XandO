@@ -65,7 +65,6 @@ def game_manager():
         else:
             this_turn = "O"
         turn = add_turn(this_turn)
-    print_board()
     if turn == "X":
         return "X has one the game"
     elif turn == "O":
