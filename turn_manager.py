@@ -20,7 +20,7 @@ def game_finished(user):
 def is_table_full():
     count = 0
     for square in board:
-        if square == "X" or square == "Y":
+        if square == "X" or square == "O":
             count += 1
     if count == 9:
         return True
