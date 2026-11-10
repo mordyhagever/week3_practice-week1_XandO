@@ -66,9 +66,9 @@ def game_manager():
             this_turn = "O"
         turn = add_turn(this_turn)
     if turn == "X":
-        return "X has one the game"
+        return "X has won the game"
     elif turn == "O":
-        return "O has one the game"
+        return "O has won the game"
     return "The game has finished with a tie"
 
 
