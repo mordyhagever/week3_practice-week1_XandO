@@ -71,7 +71,3 @@ def game_manager():
         return "O has won the game"
     return "The game has finished with a tie"
 
-
-
-
-
